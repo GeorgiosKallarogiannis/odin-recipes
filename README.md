@@ -1,6 +1,3 @@
-# odin-recipes
+## Project description:
 
-## Project description
-
-This will be a simple webpage that contains different recipes
-    <html></html>
+This will be a simple webpage that contains different recipes.
