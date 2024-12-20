@@ -36,6 +36,11 @@ ul#unordered {
     color: goldenrod;
 }
 
+
+/* The reason for putting the bg-color here and not in the rule
+below, which will be applied by the cascade, is to practice
+the fact that declarations are only overwritten by the same
+declaration in a rule with higher specificity. */
 #ordered {
     background-color: rgba(75%, 20%, 40%, 0.8);
     color: black;
