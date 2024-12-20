@@ -1,0 +1,46 @@
+p,
+.title,
+#ordered,
+#unordered {
+    font-family: Arial, sans-serif;
+}
+
+/* Here I'm overwriting the font-family of the .title class
+just to practice working with the cascade. */
+.title {
+    color: hsl(0, 75%, 60%);
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
+
+#ordered,
+#unordered {
+    font-size: 1rem;
+
+}
+
+
+#unordered ::marker {
+    color: #cd79cd;
+}
+
+/* I'm overwriting the color of the rule below to practice
+working with specificity */
+ul#unordered {
+    a {
+        color: aquamarine;
+    }
+}
+
+#unordered a {
+    color: goldenrod;
+}
+
+#ordered {
+    background-color: rgba(75%, 20%, 40%, 0.8);
+    color: black;
+}
+
+#ordered {
+    color: hsla(80, 40%, 50%, 0.5);
+}
